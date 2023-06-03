@@ -1,0 +1,26 @@
+.avoidNav{
+    margin-top: 45px;
+}
+
+#daily {
+    width: 10px;
+    height: 10px;
+    margin-inline-end: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    background: red;
+    animation: blinks 750ms linear infinite;
+}
+
+@keyframes blinks {
+    from {
+        background: red;
+    }
+    to {
+        background: blue;
+    }
+}
+
+#news-img:hover {
+    opacity: 0.65;
+}
