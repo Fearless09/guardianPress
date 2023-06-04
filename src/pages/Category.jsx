@@ -10,7 +10,7 @@ function Category({ news, setPage, page, setCategory }) {
 
     return (
         <>
-            <DateRange catValue={catValue} setCategory={setCategory} />
+            <DateRange catValue={catValue} setPage={setPage} setCategory={setCategory} />
             <News news={news} setPage={setPage} page={page} />
         </>
     )

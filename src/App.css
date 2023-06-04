@@ -9,7 +9,7 @@
     border-radius: 50%;
     display: inline-block;
     background: red;
-    animation: blinks 750ms linear infinite;
+    animation: blinks 750ms ease-in-out infinite;
 }
 
 @keyframes blinks {
@@ -23,4 +23,17 @@
 
 #news-img:hover {
     opacity: 0.65;
+}
+
+@media (max-width: 471px) {
+    .navbar>.container {
+        display: block;
+    }
+    .navbar-brand {
+        justify-content: center;
+        margin-bottom: 4px;
+    }
+    .avoidNav{
+        margin-top: 93px;
+    }
 }
