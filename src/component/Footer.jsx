@@ -14,7 +14,7 @@ function Footer() {
                     {/* Contact US */}
                     <div className="col-md mt-3 mt-md-0">
                         <h5>Contact Us</h5>
-                        <p>We welcome your feedback, questions, and news tips. Feel free to reach out to our team <a href="mailto:guardianpress@gmail.com" title='Email US' className='text-light'>via email</a></p>
+                        <p>We welcome your feedback, questions, and news tips. Feel free to reach out to our team <a href="mailto:toheebopeyemi9@gmail.com" title='Email US' className='text-light'>via email</a></p>
                         {/*  or by filling out the <Link title='Contact Form' className='text-light'>contact form</Link> on our website */}
                     </div>
                     {/* Follow US */}
