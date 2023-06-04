@@ -30,7 +30,6 @@ function DateRange({ catValue, setCategory, setPage }) {
                 <div className="hstack align-items-end ms-sm-3">
                     {/* Saerch Title */}
                     <div className="overflow-hidden d-inline">
-                        {/* <input type="search" className="form-control" placeholder='Search for your . . .' value={searchBox} id="search" onChange={e => setSearchBox(e.target.value)} onKeyPress={enterKey} /> */}
                         <input className="form-control border-info" type="search" placeholder="Search for your news" id="example-search-input" value={searchBox} onChange={(e) => setSearchBox(e.target.value)} onKeyPress={enterKey} required />
                     </div>
                     <Link to={`/category/${searchBox}`} className={`btn btn-info text-white ms-2 ${isDisable}`} onClick={searchFunction}>
