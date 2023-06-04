@@ -21,7 +21,7 @@ function App() {
   const [sportNews, setSportNews] = useState('')
   const [businessNews, setBusinessNews] = useState('')
   const [techNews, setTechNews] = useState('')
-  const [breakingNews, setBreakingNews] = useState('wordiply')
+  const [breakingNews, setBreakingNews] = useState('fairy tale')
 
   // console.log(news)
   // console.log(politicsNews)

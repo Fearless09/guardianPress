@@ -20,7 +20,7 @@ function Footer() {
                     {/* Follow US */}
                     <div className="col-md mt-3 mt-md-0">
                         <h5>Follow Us</h5>
-                        <p>Connect with us on social media to stay updated with the latest news, articles, and behind-the-scenes glimpses. Follow us on <a href="#" title='Follow US on GitHub' className='text-light'>GitHub</a>, <a href="#" title='Follow US on Twitter' className='text-light'>Twitter</a>, and <a href="" title='Follow US on LinkedIn' className='text-light'>LinkedIn</a> to join the conversation.</p>
+                        <p>Connect with us on social media to stay updated with the latest news, articles, and behind-the-scenes glimpses. Follow us on <a href="https://github.com/Fearless09/guardianPress/tree/master" target='_blank' title='Follow US on GitHub' className='text-light'>GitHub</a>, <a href="https://twitter.com/ope_yemi_dev/status/1665259084767981568?s=20" target='_blank' title='Follow US on Twitter' className='text-light'>Twitter</a>, and <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7071036966493913088/" target='_blank' title='Follow US on LinkedIn' className='text-light'>LinkedIn</a> to join the conversation.</p>
                     </div>
                 </div>
                 <div className='text-md-center mt-4 mt-md-2'>

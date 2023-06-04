@@ -37,7 +37,7 @@ function Carousel({ news }) {
                 {showCase.map((show, index) => (
                     <React.Fragment key={index}>
                         {show && show.fields ? (
-                            <SwiperSlide style={{height: '50vh', background: `url(${show.fields.thumbnail})`, backgroundSize: '100% 100%'}}>
+                            <SwiperSlide style={{height: '75vh', background: `url(${show.fields.thumbnail})`, backgroundSize: '100% 100%'}}>
                                 <div className='text-start h-100 w-75 d-flex align-items-center'>
                                     <a href={show.webUrl} target='_blank' className='text-decoration-none ps-5 ms-5'>
                                         <h2 style={{color: 'lightcoral'}}>{show.webTitle}</h2>
